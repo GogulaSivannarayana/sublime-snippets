@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function ${1}(${2})
+{
+    ${4}
+}
+]]></content>
+    <tabTrigger>function</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

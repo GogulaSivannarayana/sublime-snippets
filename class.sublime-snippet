@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<?php
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name}
+{
+    ${0}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>class</tabTrigger>
+  <description>Generate PHP class</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>embedding.php, text.html.basic, meta.embedded.block.php, punctuation.section.embedded.begin.php</scope>
+</snippet>
